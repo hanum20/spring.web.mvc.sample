@@ -14,7 +14,7 @@
     <annotation-driven/>
 
     <!-- Component Scan 패키지 설정 -->
-    <context:component-scan base-package="com.oneum"/>
+    <context:component-scan base-package="com.oneum.spring-web-mvc"/>
 
     <beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <beans:property name="prefix" value="/WEB-INF/views/"/>
